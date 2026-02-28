@@ -1,17 +1,18 @@
-# semi-ontap-mimic
-End‑to‑end data flow + ONTAP “equivalent primitives” (Snapshots, FlexClone, FlexGroup)
-NetApp ONTAP concepts referenced (production equivalents):
+# semi-ontap-mimic repository 
 
-Snapshot copies (dataset/model lineage + rollback): https://docs.netapp.com/us-en/ontap/concepts/snapshot-copies-concept.html
+# **End‑to‑end data flow + ONTAP “equivalent primitives” (Snapshots, FlexClone, FlexGroup)**
 
-FlexClone (space‑efficient dataset branching): https://docs.netapp.com/us-en/ontap/volumes/flexclone-efficient-copies-concept.html
+ NetApp ONTAP concepts referenced (production equivalents)
 
-FlexGroup (scale‑out NAS for throughput + metadata heavy workloads): https://docs.netapp.com/us-en/ontap/flexgroup/definition-concept.html
+* Snapshot copies (dataset/model lineage + rollback): https://docs.netapp.com/us-en/ontap/concepts/snapshot-copies-concept.html
 
-What this notebook demonstrates:
+* FlexClone (space‑efficient dataset branching): https://docs.netapp.com/us-en/ontap/volumes/flexclone-efficient-copies-concept.html
 
-A standard CRISP‑DM workflow for semiconductor image classification 
-Where data friction appears (ingest, cleaning, iteration, throughput) 
-How ONTAP primitives map to the same bottlenecks in production
+* FlexGroup (scale‑out NAS for throughput + metadata heavy workloads): https://docs.netapp.com/us-en/ontap/flexgroup/definition-concept.html
 
-Colab cannot run ONTAP directly for every customer; this demo shows the mechanisms and maps them to ONTAP features used in real deployments.
+## What this notebook demonstrates:
+* A standard CRISP‑DM workflow for semiconductor image classification 
+* Where data friction appears (ingest, cleaning, iteration, throughput) 
+* How ONTAP primitives map to the same bottlenecks in production
+
+**Colab cannot run ONTAP directly for every customer; this demo shows the mechanisms and maps them to ONTAP features used in real deployments.** 
