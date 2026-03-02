@@ -1,4 +1,4 @@
-# ONTAP mimic: Supervised Semiconductor Defect Image Classification (CRISP‑DM) 
+# ONTAP mimic for Semiconductor Industry Use Case: Supervised Semiconductor Defect Image Classification (CRISP‑DM) 
 
 # **End‑to‑end data flow + ONTAP “equivalent primitives” (Snapshots, FlexClone, FlexGroup)**
 
