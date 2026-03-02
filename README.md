@@ -2,13 +2,17 @@
 
 # **End‑to‑end data flow + ONTAP “equivalent primitives” (Snapshots, FlexClone, FlexGroup)**
 
- NetApp ONTAP concepts referenced (production equivalents)
+# NetApp ONTAP concepts referenced (production equivalents)
 
 * Snapshot copies (dataset/model lineage + rollback): https://docs.netapp.com/us-en/ontap/concepts/snapshot-copies-concept.html
 
 * FlexClone (space‑efficient dataset branching): https://docs.netapp.com/us-en/ontap/volumes/flexclone-efficient-copies-concept.html
 
 * FlexGroup (scale‑out NAS for throughput + metadata heavy workloads): https://docs.netapp.com/us-en/ontap/flexgroup/definition-concept.html
+
+# Semiconductor Manufacturing Defect Inspection Dataset referred
+
+* Kofler, C. et al. (2024). Automated Classification of Semiconductor Defect Density SEM Images Using Deep Learning. In: van Driel, W.D., Pressel, K., Soyturk, M. (eds) Recent Advances in Microelectronics Reliability. Springer, Cham. https://doi.org/10.1007/978-3-031-59361-1_4
 
 ## What this notebook demonstrates:
 * A standard CRISP‑DM workflow for semiconductor image classification 
